@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27DC947323DB08B70CF7A2FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		27DC947323DB08B70CF7A2FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3545C5960AE7D0E7445EEAB9 /* Pods-MyShuftiLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShuftiLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyShuftiLib_Tests/Pods-MyShuftiLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyShuftiLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShuftiLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		69DFD48C67AA7011E34E53C8 /* Pods_MyShuftiLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyShuftiLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F57EB79FBC1D487454203BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7F57EB79FBC1D487454203BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		87B54BAFBB046A5DC5A2F435 /* Pods-MyShuftiLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShuftiLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyShuftiLib_Tests/Pods-MyShuftiLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2D254EAEF9A843C1A88E43A /* Pods_MyShuftiLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyShuftiLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68FA16FFD7F998B9F4D9CE3 /* Pods-MyShuftiLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShuftiLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyShuftiLib_Example/Pods-MyShuftiLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C541AC20769ACF3B927A0439 /* MyShuftiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyShuftiLib.podspec; path = ../MyShuftiLib.podspec; sourceTree = "<group>"; };
+		C541AC20769ACF3B927A0439 /* MyShuftiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyShuftiLib.podspec; path = ../MyShuftiLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAD552BF734451BDAAE520CF /* Pods-MyShuftiLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShuftiLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MyShuftiLib_Example/Pods-MyShuftiLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				3545C5960AE7D0E7445EEAB9 /* Pods-MyShuftiLib_Tests.debug.xcconfig */,
 				87B54BAFBB046A5DC5A2F435 /* Pods-MyShuftiLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

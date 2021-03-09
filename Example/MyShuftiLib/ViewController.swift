@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import MyShuftiLib
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logger = Logger()
+        logger.printingLogs()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
